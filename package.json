@@ -2,7 +2,6 @@
   "name": "cv",
   "version": "1.0.0",
   "description": "Digitalt CV och personligt brev",
-  "main": "index.js",
   "scripts": {
     "start": "parcel index.html"
   },
@@ -19,7 +18,8 @@
   "homepage": "https://github.com/jajo21/CV#readme",
   "dependencies": {
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
     "parcel": "^2.6.0",

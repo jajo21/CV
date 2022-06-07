@@ -1,29 +1,19 @@
 import React from 'react';
-import { contactURL } from '../../data/contact-url';
+import { contactInfo } from '../../data/contact-info';
 
 import './footer.css';
 
 function Footer() {
-    console.log(contactURL);
+    console.log(contactInfo);
     return (
         <footer>
-            <div>
-                <a href={`mailto:${contactURL.email}`} target="_blank">
-                    <i className="fas fa-at my-icon" aria-hidden="true"></i>
-                </a>
-                <a href={contactURL.github} target="_blank">
-                    <i className="fab fa-github my-icon"></i>
-                </a>
-                <a href={contactURL.linkedIn} target="_blank">
-                    <i className="fab fa-linkedin-in my-icon" aria-hidden="true"></i>
-                </a>
-                <a href={contactURL.instagram} target="_blank">
-                    <i className="fab fa-instagram my-icon" aria-hidden="true"></i>
-                </a>
-                <a href={contactURL.facebook} target="_blank">
-                    <i className="fab fa-facebook my-icon" aria-hidden="true"></i>
-                </a>
-            </div>
+            {contactInfo?.map((site, index) => {
+                return (
+                    <a key={index} href={site.url} target="_blank">
+                        <i className={`${site.icon} ${site.class}`} aria-hidden="true"></i>
+                    </a>
+                );
+            })}
         </footer>
     )
 }

@@ -1,0 +1,19 @@
+.home-pic{
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: var(--box-shadow);
+}
+.home-text {
+    width: 100%;
+    box-shadow: var(--box-shadow);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.home-text > h1 {
+    margin-bottom: 15px;
+}
+
+.home-text > p {
+    margin-bottom: 10px;
+}

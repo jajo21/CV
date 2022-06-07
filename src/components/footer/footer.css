@@ -1,10 +1,31 @@
 footer {
     background: var(--lg-grey);
     text-align: center;
-    padding: 2px;
+    padding: 6px;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     color: white;
 } 
+
+.contact-icons > a {
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.contact-icons {
+    text-align: center;
+}
+.my-icon {
+    font-size: 40px;
+    margin: 0 10px;
+    padding: 2px;
+    color:white;
+    border-radius: 10px;
+    transition: transform 0.1s ease-out;
+}
+.my-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 3px 6px white;
+    color:#ff9000;
+}

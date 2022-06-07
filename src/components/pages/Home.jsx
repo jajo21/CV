@@ -5,15 +5,16 @@ import './css/home.css';
 function Home() {
     return (
         <div className='home-div'>
-            <img className='home-pic content' src={imageUrl.meAndElsa} alt="Johannes på bild" />
-            <div className='home-text content'>
-                <h1>Hej och välkommen!</h1>
+            <div className='home-pic-div'>
+                <img className='home-pic' src={imageUrl.creperiet} alt="Johannes på bild" />
+            </div>
+            <div className='home-text'>
+                <h1>Välkommen!</h1>
                 <p>
-                    Mitt namn är Johannes och jag är en 30 år ung herre som är bosatt i Visby. Under min ungdom har jag spenderat många 
+                    Mitt namn är Johannes och jag är en 31 år ung herre som är bosatt i Visby. Under min ungdom har jag spenderat många 
                     sommarlov och helger genom att prova på olika arbetsplatser för att få en bredare blick av arbetslivet. 
-                    Under perioder har jag också varit bosatt och arbetat utomlands. Jag var en period på Malta och en annan stund i Norge. 
-                    Har även rest runt i olika länder och upptäckt världen för att få mer kött på benen. Det är inte lätt att hitta 
-                    sitt kall här i livet, vad man vill göra när man blir stor. Men nu, äntligen har jag hittat en sysselsättning som är 
+                    Under perioder har jag också varit bosatt och arbetat utomlands. Det är inte lätt att hitta sitt kall här i livet, 
+                    vad man vill göra när man blir stor. Men nu, äntligen har jag hittat en sysselsättning som är 
                     spännande, givande och extremt utvecklande. Webbutveckling!
                 </p>
                 <p>
@@ -26,7 +27,7 @@ function Home() {
                 <p>
                     Jag studerar just nu Webbutvecklare .NET. Det är en distansutbildning som utgår ifrån Värnamo. Jag söker därför efter 
                     arbetsgivare belägna i Visby, i första hand, alternativt distansmöjligheter. Mitt mål med utbildningen och framtida 
-                    arbete är att utvecklas så mycket jag bara kan för att öppna upp möjligheterna till att exempelvis starta eget bolag.
+                    arbete är att utvecklas så mycket jag bara kan för att öppna upp möjligheterna att exempelvis starta eget bolag.
                 </p>
             </div>
         </div>

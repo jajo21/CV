@@ -86,8 +86,8 @@
     }
 
     .nav-links:hover {
-        background-color: rgb(74, 75, 79);
-        border-radius: 0;
+        background-color: rgb(255, 144, 0, 0.7);
+        border-radius: 30px;
     }
 
     .navbar-logo {

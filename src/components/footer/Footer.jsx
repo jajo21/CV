@@ -4,7 +4,6 @@ import { contactInfo } from '../../data/contact-info';
 import './footer.css';
 
 function Footer() {
-    console.log(contactInfo);
     return (
         <footer>
             {contactInfo?.map((site, index) => {

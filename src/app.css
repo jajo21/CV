@@ -2,6 +2,8 @@
     --lg-grey: linear-gradient(90deg, rgb(94, 94, 96, 0.5) 0%, rgb(47, 48, 51, 1) 100%);
     --site-orange: #ff9000;
     --box-shadow: 0 3px 6px #888888;
+    --padding-main: 30px;
+    --border-radius-main: 30px;
 }
 
 * {

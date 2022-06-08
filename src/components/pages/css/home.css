@@ -4,14 +4,14 @@
 }
 .home-pic{
     width: 100%;
-    border-radius: 30px;
+    border-radius: var(--border-radius-main);
     box-shadow: var(--box-shadow);
 }
 .home-text {
     width: 100%;
     box-shadow: var(--box-shadow);
-    border-radius: 30px;
-    padding: 30px;
+    border-radius: var(--border-radius-main);
+    padding: var(--padding-main);
 }
 
 .home-text > h1 {

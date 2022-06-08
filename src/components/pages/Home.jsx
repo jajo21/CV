@@ -9,7 +9,7 @@ function Home() {
                 <img className='home-pic' src={imageUrl.creperiet} alt="Johannes på bild" />
             </div>
             <div className='home-text'>
-                <h1>Välkommen!</h1>
+                <h2>Välkommen!</h2>
                 <p>
                     Mitt namn är Johannes och jag är en 31 år ung herre som är bosatt i Visby. Under min ungdom har jag spenderat många 
                     sommarlov och helger genom att prova på olika arbetsplatser för att få en bredare blick av arbetslivet. 

@@ -15,7 +15,7 @@ function Experience() {
   }
 
   return (
-    <>
+    <div className='experience-div'>
       <div className='experience-pic-div'>
         <img className='experience-pic' src={imageUrl.happyBeach} alt="Johannes på bild" />
       </div>
@@ -36,7 +36,7 @@ function Experience() {
                       <p>{x.time && `${x.time}.`}</p>
                       <p>{x.employment && `${x.employment}.`}</p>
                       <p>{x.info && `${x.info}.`}</p>
-                      {x.url && <a href={x.url}>Mer info hittar du här</a>}
+                      {x.url && <a href={x.url} className="more-link">Mer info hittar du här</a>}
                     </div>
                   ))}
                 </div>
@@ -45,7 +45,7 @@ function Experience() {
           })}
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

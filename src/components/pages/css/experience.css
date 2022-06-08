@@ -5,6 +5,7 @@
 
 .experience-pic {
     width: 100%;
+    max-width: 500px;
     border-radius: var(--border-radius-main);
     box-shadow: var(--box-shadow);
 }
@@ -39,14 +40,14 @@
 .content {
     max-height: 0;
     overflow: hidden;
-    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+    transition: all 1s cubic-bezier(0, 1, 0, 1);
     margin-bottom: 5px;
 }
 
 .content.show {
     height: auto;
     max-height: 9999px;
-    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+    transition: all 1s cubic-bezier(1, 0, 1, 0);
 }
 
 .occupation {
@@ -63,4 +64,39 @@
 
 .occupation:not(:last-child) {
     border-bottom: 1px solid var(--site-orange);
+}
+
+/* .more-link {
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: var(--lg-grey);
+    padding: 4px;
+    color: black;
+    margin-left: 1px;
+    margin-top: 8px;
+}
+
+.more-link:hover {
+    box-shadow: var(--box-shadow);
+} */
+
+@media screen and (min-width: 1151px) {
+    .experience-div {
+        display: flex;
+        width: 1064px;
+        margin: auto;
+    }
+    
+    .experience-pic-div {
+        margin-bottom: 0;
+        margin: 0 5px;
+    }
+
+    .experience-pic {
+        max-width: 100%;
+    }
+    .accordion {
+        width: 100%;
+        margin: 0 5px;
+    }
 }

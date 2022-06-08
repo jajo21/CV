@@ -26,7 +26,7 @@ function Experience() {
               <div className='item'>
                 <div className='title' onClick={() => toggle(index)}>
                   <h2>{item.title}</h2>
-                  <h2><span>{selected === index ? '-' : '+'}</span></h2>
+                  <span>{selected === index ? '-' : '+'}</span>
                 </div>
                 <div className={selected === index ? 'content show' : 'content'}>
                   {item.data.map((x) => (
@@ -36,7 +36,8 @@ function Experience() {
                       <p>{x.time && `${x.time}.`}</p>
                       <p>{x.employment && `${x.employment}.`}</p>
                       <p>{x.info && `${x.info}.`}</p>
-                      {x.url && <a href={x.url} className="more-link">Mer info hittar du här</a>}
+                      {x.url && 
+                        <p className='more'>Mer information: <a href={x.url} className="more-link" target="_blank">Klicka här</a></p>}
                     </div>
                   ))}
                 </div>

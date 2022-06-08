@@ -1,5 +1,18 @@
 export const experienceInfo =[
     {
+        title: 'Nuvarande sysselsättning',
+        data: [
+            {
+                title: null,
+                profession: 'Webbutvecklare.NET',
+                time: 'Augusti 2021 till juni 2023',
+                employment: 'Heltid på distans',
+                info: '.NET, ASP.NET, C#, REST API, Git, SQL, OOP-TDD-MVP, \
+                    JavaScript, React, HTML, CSS',
+                url: 'https://ju.se/studera/valj-utbildning/yh-utbildning/yh-program/webbutvecklare-.net.html'
+            }
+        ]
+    },{
         title: 'Anställningar',
         data: [
             {
@@ -89,7 +102,7 @@ export const experienceInfo =[
                 title: null,
                 profession: 'Webbutvecklare.NET',
                 time: 'Augusti 2021 till juni 2023',
-                employment: 'Heltid på distans, utgår från Värnamo',
+                employment: 'Heltid på distans',
                 info: '.NET, ASP.NET, C#, REST API, Git, SQL, OOP-TDD-MVP, \
                     JavaScript, React, HTML, CSS',
                 url: 'https://ju.se/studera/valj-utbildning/yh-utbildning/yh-program/webbutvecklare-.net.html'

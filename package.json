@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Digitalt CV och personligt brev",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html --port 2222"
   },
   "repository": {
     "type": "git",

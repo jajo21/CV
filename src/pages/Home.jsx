@@ -1,5 +1,5 @@
 import React from 'react';
-import imageUrl from '../../images/images';
+import imageUrl from '../images/images';
 import './css/home.css';
 
 function Home() {

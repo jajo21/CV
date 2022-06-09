@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './css/experience.css'
-import { experienceInfo } from '../../data/experience-info';
-import imageUrl from '../../images/images';
+import { experienceInfo } from '../data/experience-info';
+import imageUrl from '../images/images';
 
 function Experience() {
 

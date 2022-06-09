@@ -1,0 +1,60 @@
+
+.project-image-div {
+  text-align: center;
+}
+.project img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 30px;
+}
+
+.project h1{
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.project p {
+    padding: 20px 0;
+    border-bottom: 1px solid #ff9000;
+}
+
+.gh-div{
+    text-align: center;
+}
+
+.gh-icon {
+    font-size: 60px;
+    margin: 30px;
+    padding: 2px;
+    color:black;
+    border-radius: 10px;
+    transition: transform 0.1s ease-out;
+    text-align: center;
+}
+
+.gh-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 3px 6px #888888;
+    color:#ff9000;
+}
+
+.live-url-button {
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    background-color: rgb(47, 48, 51, 0.8);/* rgb(47, 48, 51, 0.5); */
+    padding: 4px;
+}
+
+.live-url-button:hover {
+    box-shadow: var(--box-shadow);
+    background-color: var(--site-orange);
+    transition: all 0.2s ease-out;
+}
+
+@media screen and (min-width: 1064px) {
+  .project {
+    width: 1064px;
+    margin: auto;
+}
+}

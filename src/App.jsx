@@ -4,10 +4,11 @@ import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
-import Home from './components/pages/Home';
-import Experience from './components/pages/Experience';
-import Portfolio from './components/pages/Portfolio';
-import Contact from './components/pages/Contact';
+import Home from './pages/Home';
+import Experience from './pages/Experience';
+import Projects from './pages/Projects';
+import ProjectDisplay from './pages/Project-display';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ root.render(
         <Route index element={<Home />} />
         <Route path='home' element={<Home />} />
         <Route path='experience' element={<Experience />} />
-        <Route path='portfolio' element={<Portfolio />} />
+        <Route path='projects' element={<Projects />} />
+        <Route path="project/:id" element={<ProjectDisplay />} />
         <Route path='contact' element={<Contact />} />
         <Route path="*" element={<p>There's nothing here!</p>} />
       </Route>

@@ -11,7 +11,7 @@ function Home() {
             <div className='home-text'>
                 <h2>Välkommen!</h2>
                 <p>
-                    Mitt namn är Johannes och jag är en 31 år ung herre som är bosatt i Visby. Under min ungdom har jag spenderat många 
+                    Mitt namn är Johannes och jag är en 31 årig ung man som är bosatt i Visby. Under min ungdom har jag spenderat många 
                     sommarlov och helger genom att prova på olika arbetsplatser för att få en bredare blick av arbetslivet. 
                     Under perioder har jag också varit bosatt och arbetat utomlands. Det är inte lätt att hitta sitt kall här i livet, 
                     vad man vill göra när man blir stor. Men nu, äntligen har jag hittat en sysselsättning som är 

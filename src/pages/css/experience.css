@@ -93,7 +93,7 @@
     
     .experience-pic-div {
         margin-bottom: 0;
-        margin: 0 5px;
+        margin: 0 10px;
     }
 
     .experience-pic {
@@ -101,6 +101,6 @@
     }
     .accordion {
         width: 100%;
-        margin: 0 5px;
+        margin: 0 10px;
     }
 }

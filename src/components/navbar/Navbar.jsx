@@ -7,9 +7,9 @@ import './navbar.css'
 function Navbar() {
   const [menuClicked, setMenuClicked] = useState(false);
 
-  handleMenuClick = () => setMenuClicked(!menuClicked);
+  const handleMenuClick = () => setMenuClicked(!menuClicked);
 
-  handleMobileMenuClick = () => {
+  const handleMobileMenuClick = () => {
     if (window.innerWidth <= 1000) {
       setMenuClicked(!menuClicked);
     }

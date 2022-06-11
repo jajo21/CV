@@ -2,11 +2,9 @@
   "name": "cv",
   "version": "1.0.0",
   "description": "Digitalt CV och personligt brev",
-  "homepage": "https://jajo21.github.io/CV",
   "scripts": {
     "start": "parcel index.html --port 2222",
-    "predeploy": "rm -rf dist && parcel build index.html --public-url /CV",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",

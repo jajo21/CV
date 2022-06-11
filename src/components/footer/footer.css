@@ -29,3 +29,9 @@ footer {
     box-shadow: 0 3px 6px white;
     color:#ff9000;
 }
+
+@media screen and (max-width: 375px) {
+    .my-icon{
+        font-size: 38px;
+    }
+}

@@ -7,7 +7,6 @@ function ProjectDisplay() {
 
   const { id } = useParams();
   const project = ProjectsInfo.find(project => project.id == id);
-  console.log(project);
 
   return (
     <div className='project'>

@@ -2,8 +2,11 @@
   "name": "cv",
   "version": "1.0.0",
   "description": "Digitalt CV och personligt brev",
+  "homepage": "https://jajo21.github.io/CV",
   "scripts": {
-    "start": "parcel index.html --port 2222"
+    "start": "parcel index.html --port 2222",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -15,8 +18,8 @@
   "bugs": {
     "url": "https://github.com/jajo21/CV/issues"
   },
-  "homepage": "https://github.com/jajo21/CV#readme",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0"

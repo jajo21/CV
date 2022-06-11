@@ -2,6 +2,7 @@
   "name": "cv",
   "version": "1.0.0",
   "description": "Digitalt CV och personligt brev",
+  "homepage": "https://jjakobsson.se",
   "scripts": {
     "start": "rm -rf dist && parcel index.html --port 2222",
     "build": "rm -rf dist && parcel build index.html"

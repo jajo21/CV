@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
+import { HashRouter, Routes, Route, Outlet } from 'react-router-dom';
 
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
@@ -24,7 +24,7 @@ function App() {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path='/' element={<App />}> 
         <Route index element={<Home />} />
@@ -36,5 +36,5 @@ root.render(
         <Route path="*" element={<p>There's nothing here!</p>} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );

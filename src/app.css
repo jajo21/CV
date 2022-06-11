@@ -18,3 +18,9 @@ main {
     width: 95%;
     padding: 110px 15px 90px 15px;
 }
+
+@media screen and (max-width: 375px) {
+    main {
+        padding: 90px 15px 90px 15px
+    }
+}

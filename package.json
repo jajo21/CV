@@ -5,8 +5,8 @@
   "homepage": "https://jajo21.github.io/CV",
   "scripts": {
     "start": "parcel index.html --port 2222",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "rm -rf dist && parcel build index.html",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",

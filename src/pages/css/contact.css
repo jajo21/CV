@@ -74,4 +74,7 @@
     .contact-pic {
         width: 700px;
     }
+    .email-form textarea {
+        height: 290px;
+    }
 }

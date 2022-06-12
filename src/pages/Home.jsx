@@ -17,7 +17,7 @@ function Home() {
                     <h2>Välkommen!</h2>
                     <p>
                         Mitt namn är Johannes och jag utbildar mig till Webbutvecklare i full fart! Jag har en passion för att skapa och 
-                        lära mig nya saker. Här nere kan ni se delar av vad vi har arbetat med hittills i utbildningen.
+                        lära mig nya saker. Här nere nämner jag vissa av de tekniker jag har arbetat med hittills under utbildningen.
                     </p>
                     <div>
                         {skills?.map((topic, index) => {

@@ -39,7 +39,7 @@ function ContactForm() {
             });
         e.target.reset();
     };
-    
+
     return (
         <div>
             <form
@@ -63,7 +63,7 @@ function ContactForm() {
                         required: "Fältet är obligatoriskt.",
                         pattern: {
                             value: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-                            message: 'Vänligen skriv in giltig email-address.'
+                            message: 'Vänligen skriv in en giltig email-address.'
                         }
                     })}
                     type="text"

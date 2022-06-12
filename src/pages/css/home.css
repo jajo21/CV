@@ -13,7 +13,7 @@
     width: 100%;
     box-shadow: var(--box-shadow);
     border-radius: 8px;
-    padding: var(--padding-main);
+    padding: 20px;
 }
 
 .about-short > h2 {
@@ -21,15 +21,19 @@
     text-align: center;
 }
 
-
 .topic {
-    margin: 20px 0px;
+    padding: 20px 0px;
 }
 
 .topic > h4 {
     margin-bottom: 10px;
     font-size: 20px;
 }
+
+.topic:not(:last-child) {
+    border-bottom: 1px solid var(--site-orange);
+}
+
 
 .skills {
     display: flex;
@@ -47,7 +51,7 @@
     width: 100%;
     box-shadow: var(--box-shadow);
     border-radius: 8px;
-    padding: var(--padding-main);
+    padding: 20px;
     margin-top: 20px;
 }
 

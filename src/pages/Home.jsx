@@ -52,10 +52,10 @@ function Home() {
                         </p>
                         <p>
                             Jag är en pigg, nyfiken och ansvarstagande person som aldrig är rädd att ta mig an nya utmaningar. Har god fysik och är 
-                            van med tunga och kluriga arbetsuppgifter. Jag är envis som en varg och ger sällan eller aldrig upp. Att kunna lära och ta 
-                            in nya saker snabbt och se till att ha huvudet på skaft är egenskaper jag har som är viktigt inom alla arbeten. Dåliga 
-                            egenskaper skulle kunna vara att jag ibland är för noggrann och envis för mitt eget bästa och tiden kan då springa iväg 
-                            på onödiga småsaker.
+                            van med tunga och kluriga arbetsuppgifter. Jag är envis som en varg och ger sällan eller aldrig upp. Att kunna lära och 
+                            ta in nya saker snabbt och se till att ha huvudet på skaft är egenskaper jag besitter som är viktiga inom alla arbeten. 
+                            Dåliga egenskaper skulle kunna vara att jag ibland är för noggrann och envis för mitt eget bästa och tiden kan då 
+                            springa iväg på onödiga småsaker.
                         </p>
                         <p>
                             Jag studerar just nu Webbutvecklare .NET och jag söker aktivt efter min nästa arbetsgivare. Webbutvecklare.NET är en 

@@ -8,14 +8,14 @@ function Experience({ toggleExperience, selected }) {
             <div className='accordion'>
                 {experienceInfo?.map((item, index) => {
                     return (
-                        <div className='item'>
+                        <div key={index} className='item'>
                             <div className='title' onClick={() => toggleExperience(index)}>
                                 <h2>{item.title}</h2>
                                 <span>{selected === index ? '-' : '+'}</span>
                             </div>
                             <div className={selected === index ? 'content show' : 'content'}>
-                                {item.data.map((data) => (
-                                    <Occupation data={data} />
+                                {item.data.map((data, index) => (
+                                    <Occupation key={index} data={data} />
                                 ))}
                             </div>
                         </div>

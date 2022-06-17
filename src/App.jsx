@@ -5,7 +5,7 @@ import { HashRouter, Routes, Route, Outlet } from 'react-router-dom';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Experience from './pages/Experience';
+import Experiences from './pages/Experiences';
 import Projects from './pages/Projects';
 import ProjectDisplay from './pages/Project-display';
 import Contact from './pages/Contact';
@@ -29,7 +29,7 @@ root.render(
       <Route path='/' element={<App />}> 
         <Route index element={<Home />} />
         <Route path='home' element={<Home />} />
-        <Route path='experience' element={<Experience />} />
+        <Route path='experiences' element={<Experiences />} />
         <Route path='projects' element={<Projects />} />
         <Route path="project/:id" element={<ProjectDisplay />} />
         <Route path='contact' element={<Contact />} />

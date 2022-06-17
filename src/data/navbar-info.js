@@ -6,7 +6,7 @@ export const navbarInfo = [
     },
     {
         title: 'Erfarenheter',
-        url: '/experience',
+        url: '/experiences',
         cName: 'nav-links'
     },
     {

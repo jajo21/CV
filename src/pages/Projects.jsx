@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectItem from '../components/project-item/Project-item'
+import ProjectItem from '../components/Project-item'
 import { ProjectsInfo } from '../data/projects-info'
 import './css/projects.css'
 

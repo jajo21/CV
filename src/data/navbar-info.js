@@ -1,4 +1,4 @@
-export const menuItems = [
+export const navbarInfo = [
     {
         title: 'Hem',
         url: '/home',

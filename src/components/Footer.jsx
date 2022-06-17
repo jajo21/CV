@@ -1,7 +1,7 @@
 import React from 'react';
-import { contactInfo } from '../../data/contact-info';
+import { contactInfo } from '../data/contact-info';
 
-import './footer.css';
+import './css/footer.css';
 
 function Footer() {
     return (

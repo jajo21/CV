@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import { menuItems } from './menu-items';
+import { navbarInfo } from '../data/navbar-info';
 
-import './navbar.css'
+import './css/navbar.css'
 
 function Navbar() {
   const [menuClicked, setMenuClicked] = useState(false);
@@ -22,7 +22,7 @@ function Navbar() {
         <i className={menuClicked ? 'fas fa-times' : 'fa fa-bars'}></i>
       </div>
       <ul className={menuClicked ? 'nav-menu active' : 'nav-menu'}>
-        {menuItems.map((item, index) => {
+        {navbarInfo.map((item, index) => {
           return(
             <li key={index}>
               <Link to={item.url} className={item.cName} onClick={handleMobileMenuClick}>{item.title}</Link>

@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter, Routes, Route, Outlet } from 'react-router-dom';
 
-import Footer from './components/footer/Footer';
-import Navbar from './components/navbar/Navbar';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';

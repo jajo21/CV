@@ -11,7 +11,7 @@ export const contactInfo = [
         class: 'my-icon',
     },{
         title: 'linked in',
-        url: 'https://www.linkedin.com/in/johannes-jakobsson-23455623a/',
+        url: 'https://www.linkedin.com/in/jjakobsson/',
         icon: 'fab fa-linkedin-in',
         class: 'my-icon',
     },{

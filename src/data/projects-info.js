@@ -19,7 +19,7 @@ export const ProjectsInfo = [
         skills: "ReactJS, Single Page Application, REST-API, Fetch-API, HTML, CSS",
         repoUrl: "https://github.com/jajo21/cointax",
         liveUrl: null
-    },{
+    }, {
         id: 2,
         name: "Filmstudion",
         date: 'Februari 2022',
@@ -31,17 +31,17 @@ export const ProjectsInfo = [
             Jwt Bearer Tokens, SQLite, JavaScript inkl. moduler, Fetch-API, HTML, CSS",
         repoUrl: "https://github.com/jajo21/Filmstudion",
         liveUrl: null
-    },{
+    }, {
         id: 3,
         name: "En komplett webbapplikation",
         date: 'Januari 2022',
         image: nasa,
         info: 'Här ska jag bygga ett klientgränssnitt som hämtar data från NASA:s API, men även lägga till funktionalitet \
             från ett eget skapat REST-API för att demonstrera att jag har förståelse för båda delarna.',
-        skills: "C#, ASP.NET Core, Entity Framework Core, REST-AP, Automapper, In memory database, JavaScript, Fetch-API, HTML, CSS",
+        skills: "C#, ASP.NET Core, Entity Framework Core, REST-API, Automapper, In memory database, JavaScript, Fetch-API, HTML, CSS",
         repoUrl: "https://github.com/jajo21/En-komplett-webbapplikation",
         liveUrl: null
-    },{
+    }, {
         id: 4,
         name: "Auktioner.NET",
         date: 'Januari 2022',
@@ -51,7 +51,7 @@ export const ProjectsInfo = [
         skills: "C#, ASP.NET Core MVC, ASP.NET Core Identity, Entity Framework Core, In Memory Database, xUnit, Razor",
         repoUrl: "https://github.com/jajo21/Auktioner",
         liveUrl: null
-    },{
+    }, {
         id: 5,
         name: "Uppfinnaren",
         date: 'December 2021',
@@ -60,7 +60,7 @@ export const ProjectsInfo = [
         skills: "C#, ASP.NET Core MVC, Entity Framework Core, In Memory Database, xUnit, Razor",
         repoUrl: "https://github.com/jajo21/Uppfinnaren",
         liveUrl: null
-    },{
+    }, {
         id: 6,
         name: "En natt på museet",
         date: 'December 2021',
@@ -73,7 +73,7 @@ export const ProjectsInfo = [
         skills: "C#, .NET Core, .NET Core CLI, OOP, xUnit",
         repoUrl: "https://github.com/jajo21/En-natt-pa-museet",
         liveUrl: null
-    },{
+    }, {
         id: 7,
         name: "Left to do",
         date: 'December 2021',
@@ -84,7 +84,7 @@ export const ProjectsInfo = [
         skills: "C#, .NET Core, .NET Core CLI, OOP, xUnit",
         repoUrl: "https://github.com/jajo21/Left-To-Do",
         liveUrl: null
-    },{
+    }, {
         id: 8,
         name: "Multifabriken",
         date: 'November 2021',

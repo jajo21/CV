@@ -4,7 +4,7 @@
 }
 .home-pic{
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     border-radius: var(--border-radius-main);
     box-shadow: var(--box-shadow);
 }
@@ -86,10 +86,10 @@
     margin-top: 15px;
 }
 
-@media screen and (min-width: 1180px) {
+@media screen and (min-width: 1430px) {
     .home-div {
         display: flex;
-        width: 1100px;
+        width: 1350px;
         margin: auto;
     }
     
@@ -99,10 +99,10 @@
     }
 
     .home-pic {
-        max-width: 100%;
+        max-width: 635px;
     }
     .about {
-        width:66%;
+        width: 66%;
         margin: 0 10px;
     }
 }

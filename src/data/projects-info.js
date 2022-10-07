@@ -13,10 +13,10 @@ export const ProjectsInfo = [
         name: "Cointax",
         date: 'Maj 2022',
         image: cointax,
-        info: '(DET HÄR REPOT ÄR INTE PUBLIKT ÄNNU) Under utbildningen i kursen "Affärsmannaskap för IT" så gjorde vi en affärsplan för en egen applikationsidé. \
+        info: 'Under utbildningen i kursen "Affärsmannaskap för IT" så gjorde vi en affärsplan för en egen applikationsidé. \
         Detta är resultatet av idén som konkretiserades i kursen "Moderna webbapplikationer". Resultatet är en Pitchsida för \
-        Cointax samt en MVP på applikationen.',
-        skills: "ReactJS, Single Page Application, REST-API, Fetch-API, HTML, CSS",
+        Cointax samt en MVP på applikationen. Mer detaljer och information finns på GitHub.',
+        skills: "ReactJS, Single Page Application, REST-API, Fetch-API, HTML, CSS, C#, ASP.NET Core, Entity Framework Core, Swagger UI, SQlite",
         repoUrl: "https://github.com/jajo21/cointax",
         liveUrl: null
     }, {

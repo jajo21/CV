@@ -6,10 +6,23 @@ import uppfinnaren from '../images/projects-info/uppfinnaren.jpeg'
 import museet from '../images/projects-info/museet.jpeg'
 import leftToDo from '../images/projects-info/lefttodo.jpeg'
 import multifabriken from '../images/projects-info/multifabriken.jpeg'
+import hostel from '../images/projects-info/hostel.png'
 
 export const ProjectsInfo = [
     {
         id: 1,
+        name: "Chelsea International Hostel",
+        date: 'September 2022',
+        image: hostel,
+        info: 'Hotellet Chelsea International Hostel har påbörjat sin digitaliseringsprocess med hjälp av SmartHuts smarta \
+        sensorer som kan mäta exempelvis värme och luftfuktighet. Nu vill de ha hjälp att skapa ett användargränssnitt för \
+        att kunna styra sina smarta sensorer.',
+        skills: "ReactJS, Single Page Application, MSAL, Microsoft-SignalR, WebSockets, REST-API, Fetch-API, HTML, CSS, Parcel",
+        repoUrl: "https://github.com/jajo21/chelsea-international-hostel",
+        liveUrl: null
+    },
+    {
+        id: 2,
         name: "Cointax",
         date: 'Maj 2022',
         image: cointax,
@@ -20,7 +33,7 @@ export const ProjectsInfo = [
         repoUrl: "https://github.com/jajo21/cointax",
         liveUrl: null
     }, {
-        id: 2,
+        id: 3,
         name: "Filmstudion",
         date: 'Februari 2022',
         image: sff,
@@ -32,7 +45,7 @@ export const ProjectsInfo = [
         repoUrl: "https://github.com/jajo21/Filmstudion",
         liveUrl: null
     }, {
-        id: 3,
+        id: 4,
         name: "En komplett webbapplikation",
         date: 'Januari 2022',
         image: nasa,
@@ -42,7 +55,7 @@ export const ProjectsInfo = [
         repoUrl: "https://github.com/jajo21/En-komplett-webbapplikation",
         liveUrl: null
     }, {
-        id: 4,
+        id: 5,
         name: "Auktioner.NET",
         date: 'Januari 2022',
         image: auktioner,
@@ -52,7 +65,7 @@ export const ProjectsInfo = [
         repoUrl: "https://github.com/jajo21/Auktioner",
         liveUrl: null
     }, {
-        id: 5,
+        id: 6,
         name: "Uppfinnaren",
         date: 'December 2021',
         image: uppfinnaren,
@@ -61,7 +74,7 @@ export const ProjectsInfo = [
         repoUrl: "https://github.com/jajo21/Uppfinnaren",
         liveUrl: null
     }, {
-        id: 6,
+        id: 7,
         name: "En natt på museet",
         date: 'December 2021',
         image: museet,
@@ -74,7 +87,7 @@ export const ProjectsInfo = [
         repoUrl: "https://github.com/jajo21/En-natt-pa-museet",
         liveUrl: null
     }, {
-        id: 7,
+        id: 8,
         name: "Left to do",
         date: 'December 2021',
         image: leftToDo,
@@ -85,7 +98,7 @@ export const ProjectsInfo = [
         repoUrl: "https://github.com/jajo21/Left-To-Do",
         liveUrl: null
     }, {
-        id: 8,
+        id: 9,
         name: "Multifabriken",
         date: 'November 2021',
         image: multifabriken,

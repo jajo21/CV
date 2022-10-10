@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { navbarInfo } from '../data/navbar-info';
 
 import './css/navbar.css'
@@ -21,11 +21,11 @@ function Navbar() {
       <div className='menu-icon' onClick={handleMenuClick}>
         <i className={menuClicked ? 'fas fa-times' : 'fa fa-bars'}></i>
       </div>
-      <ul className={menuClicked ? 'nav-menu active' : 'nav-menu'}>
+      <ul className={menuClicked ? 'nav-menu small-active' : 'nav-menu'}>
         {navbarInfo.map((item, index) => {
-          return(
+          return (
             <li key={index}>
-              <Link to={item.url} className={item.cName} onClick={handleMobileMenuClick}>{item.title}</Link>
+              <NavLink to={item.url} className={item.cName} onClick={handleMobileMenuClick}>{item.title}</NavLink>
             </li>
           )
         })}

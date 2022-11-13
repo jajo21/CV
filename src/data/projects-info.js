@@ -11,7 +11,7 @@ import hostel from '../images/projects-info/hostel.png'
 export const ProjectsInfo = [
     {
         id: 1,
-        name: "Chelsea International Hostel",
+        name: "Projekt SmartHut",
         date: 'September 2022',
         image: hostel,
         info: 'Hotellet Chelsea International Hostel har påbörjat sin digitaliseringsprocess med hjälp av SmartHuts smarta \

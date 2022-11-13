@@ -6,9 +6,9 @@ export const skills = [
             { title: 'CSS' },
             { title: 'JavaScript' },
             { title: 'ReactJS' },
-            { title: 'BootStrap' },
             { title: 'Web Storage' },
             { title: 'IndexedDB' },
+            { title: 'Websockets' }
         ]
     }, {
         title: 'Back-end',
@@ -17,21 +17,19 @@ export const skills = [
             { title: 'ASP.NET Core' },
             { title: 'ASP.NET Identity Core' },
             { title: 'Entity Framework Core' },
-            { title: 'REST-API' },
-            { title: 'API' },
-            { title: 'Databaser' },
+            { title: 'WEB-API & REST' },
+            { title: 'Databaser - SQL & Sqlite' },
             { title: 'Unit-tests' },
             { title: 'Jwt Bearer Tokens' },
-            { title: 'Swagger UI' },
-            { title: 'SignalR & Websockets' },
-            { title: 'Nätverksprogrammering C#' },
-            { title: 'Driftsättning' },
+            { title: 'SignalR' },
+            { title: 'Dependency Injection' }
         ]
     }, {
-        title: 'Designmönster och tekniker',
+        title: 'Designmönster, tekniker och övrigt',
         skills: [
             { title: 'GIT & GitHub ' },
             { title: 'ASP.NET MVC' },
+            { title: 'Objektorienterad programmering' },
             { title: 'Single Page Applications' },
             { title: 'Mobile first' },
             { title: 'Responsiv design' },
@@ -42,6 +40,12 @@ export const skills = [
             { title: 'Scrum' },
             { title: 'Kanban' },
             { title: 'Presentationstekniker - NaBc' },
+            { title: 'Nätverk & protokoll på webben' },
+            { title: 'Driftsättning av projekt - Linux' },
+            { title: 'Nginx' },
+            { title: 'Swagger UI' },
+            { title: 'Microsoft Authentication Library (MSAL2.0)' },
+            { title: 'Webpack/Babel/Parcel' }
         ]
     }
 ]

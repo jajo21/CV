@@ -7,6 +7,12 @@
     max-width: 500px;
     border-radius: var(--border-radius-main);
     box-shadow: var(--box-shadow);
+    text-align: center;
+}
+
+.about {
+    max-width: 750px;
+    margin: auto;
 }
 
 .about-short {
@@ -41,7 +47,7 @@
 }
 
 .skill {
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 2px 4px #888888;
     padding: 6px;
     border-radius: 8px;
     margin: 4px;
@@ -86,23 +92,32 @@
     margin-top: 15px;
 }
 
-@media screen and (min-width: 1430px) {
+@media screen and (min-width: 900px) {
     .home-div {
         display: flex;
-        width: 1350px;
         margin: auto;
+        max-width: 1200px;
     }
-    
-    .home-pic-div {
-        margin-bottom: 0;
-        margin: 0 10px;
+    .home-pic{
+        width: 100%;
+        max-width: none;
+        border-radius: var(--border-radius-main);
+        box-shadow: var(--box-shadow);
+        position: sticky;
+        top: 110;
+        z-index: -1;
     }
 
-    .home-pic {
-        max-width: 635px;
+    .home-pic-div {
+        width: 50%;
+        margin-right: 20px;
+        max-width: 550px;
+        justify-content: right;
     }
+    
     .about {
-        width: 66%;
-        margin: 0 10px;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
     }
 }

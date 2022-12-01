@@ -97,6 +97,9 @@
 
     .experience-pic {
         max-width: 100%;
+        position: sticky;
+        top: 110;
+        z-index: -2; 
     }
     .accordion {
         width: 100%;

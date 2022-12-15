@@ -32,22 +32,32 @@
     background-size: cover;
 }
 
+.bg-image {
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
 .project-item:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in;
     cursor: pointer;
 }
 
-.project-item h2 {
-    font-size: 25px;
+.project-name {
+    height: 100px;
+    position: relative;
+}
+
+.project-name h2 {
+    font-size: 22px;
     display: block;
     padding: 20px;
     font-weight: bold;
-}
-@media screen and (max-width: 400px){
-    .project-item h2 {
-        font-size: 22px;
-    }
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 .project-list {

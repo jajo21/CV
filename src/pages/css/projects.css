@@ -44,6 +44,12 @@
     padding: 20px;
     font-weight: bold;
 }
+@media screen and (max-width: 400px){
+    .project-item h2 {
+        font-size: 22px;
+    }
+}
+
 .project-list {
     height: auto;
     place-items: center;

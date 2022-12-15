@@ -62,8 +62,13 @@
     margin-bottom: 5px;
 }
 
-.occupation p {
-    margin-bottom: 3px;
+.occupation ul {
+    list-style-type:circle;
+    margin-left: 20px;
+}
+
+.occupation ul li {
+    margin-bottom: 5px;
 }
 
 .occupation:not(:last-child) {

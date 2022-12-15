@@ -45,7 +45,8 @@ export const skills = [
             { title: 'Nginx' },
             { title: 'Swagger UI' },
             { title: 'Microsoft Authentication Library (MSAL2.0)' },
-            { title: 'Webpack/Babel/Parcel' }
+            { title: 'Webpack/Babel/Parcel' },
+            { title: 'MQTT' }
         ]
     }
 ]

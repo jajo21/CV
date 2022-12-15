@@ -7,10 +7,21 @@ import museet from '../images/projects-info/museet.jpeg'
 import leftToDo from '../images/projects-info/lefttodo.jpeg'
 import multifabriken from '../images/projects-info/multifabriken.jpeg'
 import hostel from '../images/projects-info/hostel.png'
+import meddelandecentralen from '../images/projects-info/Meddelandecentralen.png'
 
 export const ProjectsInfo = [
     {
-        id: 1,
+        id: 10,
+        name: "Meddelandecentralen",
+        date: 'Oktober 2022',
+        image: meddelandecentralen,
+        info: 'Twitter-liknande chatt-applikation byggd med .NET 6 och React. Realtidskommunikationen skapad med hjälp av SignalR.',
+        skills: "ReactJS, Single Page Application, ASP.NET Core, C#, Microsoft-SignalR, SignalR-Hub, WebSockets, REST-API, Fetch-API, JavaScript, HTML, CSS, Parcel",
+        repoUrl: "https://github.com/jajo21/Meddelandecentralen",
+        liveUrl: null
+    },
+    {
+        id: 9,
         name: "Projekt SmartHut",
         date: 'September 2022',
         image: hostel,
@@ -22,7 +33,7 @@ export const ProjectsInfo = [
         liveUrl: null
     },
     {
-        id: 2,
+        id: 8,
         name: "Cointax",
         date: 'Maj 2022',
         image: cointax,
@@ -33,7 +44,7 @@ export const ProjectsInfo = [
         repoUrl: "https://github.com/jajo21/cointax",
         liveUrl: null
     }, {
-        id: 3,
+        id: 7,
         name: "Filmstudion",
         date: 'Februari 2022',
         image: sff,
@@ -45,7 +56,7 @@ export const ProjectsInfo = [
         repoUrl: "https://github.com/jajo21/Filmstudion",
         liveUrl: null
     }, {
-        id: 4,
+        id: 6,
         name: "En komplett webbapplikation",
         date: 'Januari 2022',
         image: nasa,
@@ -65,7 +76,7 @@ export const ProjectsInfo = [
         repoUrl: "https://github.com/jajo21/Auktioner",
         liveUrl: null
     }, {
-        id: 6,
+        id: 4,
         name: "Uppfinnaren",
         date: 'December 2021',
         image: uppfinnaren,
@@ -74,7 +85,7 @@ export const ProjectsInfo = [
         repoUrl: "https://github.com/jajo21/Uppfinnaren",
         liveUrl: null
     }, {
-        id: 7,
+        id: 3,
         name: "En natt på museet",
         date: 'December 2021',
         image: museet,
@@ -87,7 +98,7 @@ export const ProjectsInfo = [
         repoUrl: "https://github.com/jajo21/En-natt-pa-museet",
         liveUrl: null
     }, {
-        id: 8,
+        id: 2,
         name: "Left to do",
         date: 'December 2021',
         image: leftToDo,
@@ -98,7 +109,7 @@ export const ProjectsInfo = [
         repoUrl: "https://github.com/jajo21/Left-To-Do",
         liveUrl: null
     }, {
-        id: 9,
+        id: 1,
         name: "Multifabriken",
         date: 'November 2021',
         image: multifabriken,

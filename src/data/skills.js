@@ -2,13 +2,10 @@ export const skills = [
     {
         title: 'Front-end',
         skills: [
+            { title: 'ReactJS' },
+            { title: 'JavaScript' },
             { title: 'HTML5' },
             { title: 'CSS' },
-            { title: 'JavaScript' },
-            { title: 'ReactJS' },
-            { title: 'Web Storage' },
-            { title: 'IndexedDB' },
-            { title: 'Websockets' }
         ]
     }, {
         title: 'Back-end',
@@ -19,10 +16,6 @@ export const skills = [
             { title: 'Entity Framework Core' },
             { title: 'WEB-API & REST' },
             { title: 'Databaser - SQL & Sqlite' },
-            { title: 'Unit-tests' },
-            { title: 'Jwt Bearer Tokens' },
-            { title: 'SignalR' },
-            { title: 'Dependency Injection' }
         ]
     }, {
         title: 'Designmönster, tekniker och övrigt',
@@ -30,7 +23,15 @@ export const skills = [
             { title: 'GIT & GitHub ' },
             { title: 'ASP.NET MVC' },
             { title: 'Objektorienterad programmering' },
+            { title: 'Dependency Injection' },
+            { title: 'Jwt Bearer Tokens' },
+            { title: 'Unit-tests' },
+            { title: 'Websockets' },
+            { title: 'SignalR' },
+            { title: 'Web Storage' },
+            { title: 'IndexedDB' },
             { title: 'Single Page Applications' },
+            { title: 'Tillståndshantering (Context)' },
             { title: 'Mobile first' },
             { title: 'Responsiv design' },
             { title: 'npm' },
@@ -46,7 +47,8 @@ export const skills = [
             { title: 'Swagger UI' },
             { title: 'Microsoft Authentication Library (MSAL2.0)' },
             { title: 'Webpack/Babel/Parcel' },
-            { title: 'MQTT' }
+            { title: 'MQTT' },
+
         ]
     }
 ]

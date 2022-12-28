@@ -7,10 +7,10 @@ export const experienceInfo = [
                 profession: 'Webbutvecklare',
                 time: '10 veckor från och med november 2022',
                 employment: 'LIA (Lärande i arbete) / Praktik',
-                info: 'SGAM arbetar med digitalisering och optimering av fastigheter. Mitt \
-                jobb var att hjälpa till med detta genom att integrera olika webblösningar. \
-                Exempelvis genom integration av spotpris-apier i befintliga gränsnitt och \
-                ihopkoppling av IoT-enheter genom protokollet MQTT',
+                info: 'SGAM arbetar med digitalisering och optimering av fastigheter. Min \
+                praktik gick ut på att hjälpa till med detta genom att integrera olika \
+                webblösningar. Exempelvis genom integration av spotpris-apier i befintliga \
+                gränssnitt och ihopkoppling av IoT-enheter genom protokollet MQTT',
                 url: null
             },
             {

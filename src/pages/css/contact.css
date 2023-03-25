@@ -50,10 +50,12 @@
     font-size: 20px;
 }
 
-.send-button:hover {
-    box-shadow: var(--box-shadow);
-    background-color: var(--site-orange);
-    transition: all 0.2s ease-out;
+@media (hover: hover) {
+    .send-button:hover {
+        box-shadow: var(--box-shadow);
+        background-color: var(--site-orange);
+        transition: all 0.2s ease-out;
+    }
 }
 
 .message-sent {

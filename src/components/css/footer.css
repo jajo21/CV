@@ -24,10 +24,19 @@ footer {
     border-radius: 10px;
     transition: transform 0.1s ease-out;
 }
-.my-icon:hover {
+
+.my-icon:active {
     transform: scale(1.1);
     box-shadow: 0 3px 6px white;
     color:#ff9000;
+}
+
+@media (hover: hover) {
+    .my-icon:hover {
+        transform: scale(1.1);
+        box-shadow: 0 3px 6px white;
+        color:#ff9000;
+    }
 }
 
 @media screen and (max-width: 375px) {

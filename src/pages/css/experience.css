@@ -83,12 +83,13 @@
     color: white;
 }
 
-.more-link:hover {
-    box-shadow: var(--box-shadow);
-    background-color: var(--site-orange);
-    transition: all 0.2s ease-out;
+@media (hover: hover) {
+    .more-link:hover {
+        box-shadow: var(--box-shadow);
+        background-color: var(--site-orange);
+        transition: all 0.2s ease-out;
+    }
 }
-
 @media screen and (min-width: 1151px) {
     .experience-div {
         display: flex;

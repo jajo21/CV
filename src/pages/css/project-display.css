@@ -32,7 +32,7 @@
     text-align: center;
 }
 
-.gh-icon:hover {
+.gh-icon:active {
     transform: scale(1.1);
     box-shadow: 0 3px 6px #888888;
     color:#ff9000;
@@ -46,15 +46,29 @@
     padding: 4px;
 }
 
-.live-url-button:hover {
-    box-shadow: var(--box-shadow);
-    background-color: var(--site-orange);
-    transition: all 0.2s ease-out;
+@media (hover: hover) {
+    .gh-icon:hover {
+        transform: scale(1.1);
+        box-shadow: 0 3px 6px #888888;
+        color:#ff9000;
+    }
+    .live-url-button:hover {
+        box-shadow: var(--box-shadow);
+        background-color: var(--site-orange);
+        transition: all 0.2s ease-out;
+    }
 }
 
-@media screen and (min-width: 1064px) {
+
+@media screen and (min-width: 1130px) {
   .project {
-    width: 1064px;
-    margin: auto;
+        width: 1064px;
+        margin: auto;
+    }
 }
+
+@media screen and (max-width: 400px) {
+    .project h1{
+         font-size: 24;
+    }
 }

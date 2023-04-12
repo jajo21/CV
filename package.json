@@ -2,10 +2,13 @@
   "name": "cv",
   "version": "1.0.0",
   "description": "Digitalt CV och personligt brev",
-  "homepage": "https://jjakobsson.se",
+  "homepage": "http://jajo21.github.io/CV",
   "scripts": {
     "start": "rm -rf dist && parcel index.html --port 2222",
-    "build": "rm -rf dist && parcel build index.html"
+    "build": "rm -rf dist && parcel build index.html",
+    "predeploy" : "rm -rf dist && parcel build index.html",
+    "deploy" : "gh-pages -d parcel build index.html"
+
   },
   "repository": {
     "type": "git",
@@ -19,13 +22,13 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
-    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-hook-form": "^7.34.0",
     "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "parcel": "^2.6.0",
     "process": "^0.11.10"
   }

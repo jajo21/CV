@@ -1,12 +1,12 @@
 export const contactInfo = [
     {
         title: 'email',
-        url: 'mailto:jajo21pg@student.ju.se',
+        url: 'mailto:jjakobssonn@gmail.com',
         icon: 'fas fa-at',
         class: 'my-icon',
     },{
         title: 'github',
-        url: 'https://github.com/jajo21',
+        url: 'https://github.com/johannesjakobsson',
         icon: 'fab fa-github',
         class: 'my-icon',
     },{

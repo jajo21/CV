@@ -7,7 +7,7 @@
 4. Installera npm globalet genom att skriva ```npm install -g npm``` i terminalen.  
 
 **Förbered och starta applikationen**  
-1. Ladda ner repot från https://github.com/jajo21/CV.  
+1. Ladda ner repot från https://github.com/johannesjakobsson/CV.  
 2. Leta upp valfri terminal och utgå från nerladdad cointax mapp.  
 3. I termnialen skriver du sedan: ```npm ci ```, nu laddas alla nödvändiga paket ner.  
 4. När alla paket har laddats klart skriver du i terminalen: ```npm start```, det här transpilerar koden via parcel och startar applikationen.  

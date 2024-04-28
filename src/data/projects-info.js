@@ -17,7 +17,7 @@ export const ProjectsInfo = [
         image: meddelandecentralen,
         info: 'Twitter-liknande chatt-applikation byggd med .NET 6 och React. Realtidskommunikationen skapad med hjälp av SignalR.',
         skills: "ReactJS, Single Page Application, ASP.NET Core, C#, Microsoft-SignalR, SignalR-Hub, WebSockets, REST-API, Fetch-API, JavaScript, HTML, CSS, Parcel",
-        repoUrl: "https://github.com/jajo21/Meddelandecentralen",
+        repoUrl: "https://github.com/johannesjakobsson/Meddelandecentralen",
         liveUrl: null
     },
     {
@@ -29,7 +29,7 @@ export const ProjectsInfo = [
         sensorer som kan mäta exempelvis värme och luftfuktighet. Nu vill de ha hjälp att skapa ett användargränssnitt för \
         att kunna styra sina smarta sensorer.',
         skills: "ReactJS, Single Page Application, MSAL, Microsoft-SignalR, WebSockets, REST-API, Fetch-API, HTML, CSS, Parcel",
-        repoUrl: "https://github.com/jajo21/chelsea-international-hostel",
+        repoUrl: "https://github.com/johannesjakobsson/chelsea-international-hostel",
         liveUrl: null
     },
     {
@@ -41,7 +41,7 @@ export const ProjectsInfo = [
         Detta är resultatet av idén som konkretiserades i kursen "Moderna webbapplikationer". Resultatet är en Pitchsida för \
         Cointax samt en MVP på applikationen. Mer detaljer och information finns på GitHub.',
         skills: "ReactJS, Single Page Application, REST-API, Fetch-API, HTML, CSS, C#, ASP.NET Core, Entity Framework Core, Swagger UI, SQlite",
-        repoUrl: "https://github.com/jajo21/cointax",
+        repoUrl: "https://github.com/johannesjakobsson/cointax",
         liveUrl: null
     }, {
         id: 7,
@@ -53,7 +53,7 @@ export const ProjectsInfo = [
             till sin förening. Mer information finns i README.md om ni tar er vidare till GitHub',
         skills: "C#, ASP.NET Core, ASP.NET Core Identity, Entity Framework Core, REST-API, Swagger UI, Automapper, \
             Jwt Bearer Tokens, SQLite, JavaScript inkl. moduler, Fetch-API, HTML, CSS",
-        repoUrl: "https://github.com/jajo21/Filmstudion",
+        repoUrl: "https://github.com/johannesjakobsson/Filmstudion",
         liveUrl: null
     }, {
         id: 6,
@@ -63,7 +63,7 @@ export const ProjectsInfo = [
         info: 'Här ska jag bygga ett klientgränssnitt som hämtar data från NASA:s API, men även lägga till funktionalitet \
             från ett eget skapat REST-API för att demonstrera att jag har förståelse för båda delarna.',
         skills: "C#, ASP.NET Core, Entity Framework Core, REST-API, Automapper, In memory database, JavaScript, Fetch-API, HTML, CSS",
-        repoUrl: "https://github.com/jajo21/En-komplett-webbapplikation",
+        repoUrl: "https://github.com/johannesjakobsson/En-komplett-webbapplikation",
         liveUrl: null
     }, {
         id: 5,
@@ -73,7 +73,7 @@ export const ProjectsInfo = [
         info: 'Det första större (hittills) mer realistiska projekt där vi ska sätta upp ett digitalt arbetsverktyg för ett företag som \
             håller på med auktioner. Mer information finns i README.md på GitHub',
         skills: "C#, ASP.NET Core MVC, ASP.NET Core Identity, Entity Framework Core, In Memory Database, xUnit, Razor",
-        repoUrl: "https://github.com/jajo21/Auktioner",
+        repoUrl: "https://github.com/johannesjakobsson/Auktioner",
         liveUrl: null
     }, {
         id: 4,
@@ -82,7 +82,7 @@ export const ProjectsInfo = [
         image: uppfinnaren,
         info: 'Målet med denna uppgift är att utveckla en dynamisk webbapplikation med ASP.NET och designmönstret MVC.',
         skills: "C#, ASP.NET Core MVC, Entity Framework Core, In Memory Database, xUnit, Razor",
-        repoUrl: "https://github.com/jajo21/Uppfinnaren",
+        repoUrl: "https://github.com/johannesjakobsson/Uppfinnaren",
         liveUrl: null
     }, {
         id: 3,
@@ -95,7 +95,7 @@ export const ProjectsInfo = [
             för att hålla koll på och inventera deras olika rum och konstverk! Du har pitchat en idé att programmet ska fungera \
             precis som alla andra program via command line arguments - vilket personalen är väldigt positivt inställda till.',
         skills: "C#, .NET Core, .NET Core CLI, OOP, xUnit",
-        repoUrl: "https://github.com/jajo21/En-natt-pa-museet",
+        repoUrl: "https://github.com/johannesjakobsson/En-natt-pa-museet",
         liveUrl: null
     }, {
         id: 2,
@@ -106,7 +106,7 @@ export const ProjectsInfo = [
             programmet kunna se vad som är kvar att göra i listan, markera uppgifter som avklarade, lägga till nya uppgifter i \
             listan samt arkivera avklarade uppgifter.',
         skills: "C#, .NET Core, .NET Core CLI, OOP, xUnit",
-        repoUrl: "https://github.com/jajo21/Left-To-Do",
+        repoUrl: "https://github.com/johannesjakobsson/Left-To-Do",
         liveUrl: null
     }, {
         id: 1,
@@ -116,7 +116,7 @@ export const ProjectsInfo = [
         info: 'Utveckla en konsolapplikation för bolaget Multifabriken AB. De vill skapa en konsolapplikation för sina kunder \
             där man kan välja att beställa nya produkter från deras fabrik.',
         skills: "C#, .NET Core, .NET Core CLI, OOP",
-        repoUrl: "https://github.com/jajo21/Multifabriken",
+        repoUrl: "https://github.com/johannesjakobsson/Multifabriken",
         liveUrl: null
     }
 ];
